@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "7WX26W4ZHH.com.bitscheme.RideAlert",
+        "paths": [
+          "/app/*"
+        ]
+      }
+    ]
+  }
+}
