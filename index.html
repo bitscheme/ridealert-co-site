@@ -2,18 +2,23 @@
 <html lang="en" prefix="og: http://ogp.me/ns#">
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-22882472-5"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-22882472-5');
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-22882472-5', 'auto');
+    
+    // Replace the following lines with the plugins you want to use.
+    ga('require', 'eventTracker');
+    ga('require', 'outboundLinkTracker');
+    ga('require', 'urlChangeTracker');
+    // ...
+    
+    ga('send', 'pageview');
   </script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 
-  <title>Ride Alert － Social Cycling</title>
-  <meta property="og:title" content="Ride Alert － Social Cycling" />
+  <title>Ride Alert | Social Cycling</title>
+  <meta property="og:title" content="Ride Alert | Social Cycling" />
   <meta property="og:description" name="description" content="Share upcoming rides and join up with Strava cyclists in your city."/>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -107,7 +112,7 @@
                 <span class="ti-user gradient-fill ti-3x mr-3"></span>
                 <div class="media-body">
                   <h4 class="card-title">Connect</h4>
-                  <p class="card-text">Login with your Strava account and seek out local cyclists.</p>
+                  <p class="card-text">Login with your Strava account and seek out and connect with local cyclists.</p>
                 </div>
               </div>
             </div>
@@ -120,7 +125,7 @@
                 <span class="ti-direction-alt gradient-fill ti-3x mr-3"></span>
                 <div class="media-body">
                   <h4 class="card-title">Post Your Ride</h4>
-                  <p class="card-text">Let other Ride Alert cyclists in your city know about your upcoming ride. Enter details like start date,
+                  <p class="card-text">Let other cyclists in your city know about your upcoming ride. Enter details like start date,
                     time, location, and distance.</p>
                 </div>
               </div>
