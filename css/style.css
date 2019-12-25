@@ -640,3 +640,11 @@ header {
         margin-top: 2rem;
     }
 }
+
+[id]::before {
+    content: '';
+    display: block;
+    height:      100px;
+    margin-top: -100px;
+    visibility: hidden;
+  }
