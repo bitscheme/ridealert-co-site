@@ -40,7 +40,7 @@
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <!-- Themify Icons -->
   <link rel="stylesheet" href="css/themify-icons.css">
   <!-- Owl carousel -->
@@ -71,8 +71,8 @@
               <img src="images/logo-transparent.png" width="75" height="75" class="img-fluid" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar">
               <ul class="navbar-nav ml-auto">
@@ -100,10 +100,20 @@
       </div>
     </div>
   </div>
-
-
+  
   <header class="bg-gradient" id="home">
     <div class="container mt-5">
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>COVID-19 Announcement</strong>
+        <p>Due to the Coronavirus outbreak, public ride posts have been suspended.</p>
+        <hr/>
+        <p>For more information on cycling during the COVID-19 pandemic, refer to
+          the bicycling.com article <a href="https://www.bicycling.com/news/a31469228/cycling-during-coronavirus"
+          >How to Ride Safely Amid Coronavirus Concerns</a></p>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>              
       <h1>Ride Alert</h1>
       <p class="tagline">Share upcoming rides and join up with Strava cyclists in your city.</p>
     </div>
@@ -113,9 +123,7 @@
   </header>
 
   <div class="section light-bg" id="features">
-
     <div class="container">
-
       <div class="section-title">
         <small>HIGHLIGHTS</small>
         <h3>Ride With Local Cyclists</h3>
@@ -395,8 +403,16 @@
   </footer>
 
   <!-- jQuery and Bootstrap -->
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
+  <script 
+    src="https://code.jquery.com/jquery-3.4.1.slim.js"			  
+    integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+    crossorigin="anonymous">
+  </script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+    integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"
+    crossorigin="anonymous">
+  </script>
   <!-- Plugins JS -->
   <script src="js/owl.carousel.min.js"></script>
   <!-- Custom JS -->
