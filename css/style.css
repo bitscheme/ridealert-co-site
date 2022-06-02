@@ -83,6 +83,11 @@ p {
     color: #959094;
 }
 
+li {
+    color: #959094;
+    font-weight: 300;
+}
+
 p.lead {
     color: #E3AE8D;
     margin-bottom: 2rem;
