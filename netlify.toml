@@ -1,0 +1,14 @@
+[[redirects]]
+  from = "/privacy"
+  to = "https://docs.ridealert.co/privacy"
+  status = 301
+
+[[redirects]]
+  from = "/terms"
+  to = "https://docs.ridealert.co/terms-of-use"
+  status = 301
+
+[[redirects]]
+  from = "/faq"
+  to = "https://docs.ridealert.co/faq"
+  status = 301
