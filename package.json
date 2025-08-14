@@ -1,0 +1,22 @@
+{
+  "name": "ridealert-co-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "favicons": "realfavicon generate images/app-icon.png favicon-settings.json output-data.json ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitscheme/ridealert-co-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitscheme/ridealert-co-site/issues"
+  },
+  "homepage": "https://github.com/bitscheme/ridealert-co-site#readme",
+  "devDependencies": {
+    "realfavicon": "^0.4.18"
+  }
+}
