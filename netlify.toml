@@ -12,3 +12,8 @@
   from = "/faq"
   to = "https://docs.ridealert.co/faq"
   status = 301
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
