@@ -21,8 +21,8 @@
   }
   
   .tagline {
-    font-size: 1.25rem;
-    font-weight: 300;
+    font-size: 2.25rem;
+    font-weight: 200;
     color: rgba(255,255,255,0.9);
     margin-bottom: 2rem;
     max-width: 600px;

@@ -5,13 +5,16 @@
         <span class="icon-mobile">📱</span>
       </div>
       <h2>Download</h2>
-      <p class="tagline">Available for both iOS and Android platforms.</p>
+      <p class="tagline">Available for iOS, MacOS and Android platforms.</p>
       <div class="buttons">
-        <a href="https://itunes.apple.com/us/app/ride-alert-social-cycling/id1211768218" class="btn btn-light">
-          <img src="/images/appleicon.png" alt="Apple Icon"> App Store
+        <a href="https://play.google.com/store/apps/details?id=com.bitscheme.ridealert" class="store-link">
+          <img src="/images/GetItOnGooglePlay_Badge_Web_color_English.png" alt="Get it on Google Play">
         </a>
-        <a href="https://play.google.com/store/apps/details?id=com.bitscheme.ridealert" class="btn btn-light">
-          <img src="/images/playicon.png" alt="Google Play Icon"> Google Play
+        <a href="https://itunes.apple.com/us/app/ride-alert-social-cycling/id1211768218" class="store-link">
+          <img src="/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store">
+        </a>
+        <a href="https://apps.apple.com/us/app/ride-alert-social-cycling/id1211768218" class="store-link">
+          <img src="/images/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the Mac App Store">
         </a>
       </div>
     </div>
@@ -52,13 +55,18 @@
   .buttons {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
+    margin-top: 1rem;
   }
   
-  .btn img {
-    height: 20px;
-    margin-right: 0.5rem;
-    vertical-align: middle;
+  .store-link img {
+    height: 48px;
+    width: auto;
+    transition: transform 0.2s;
+  }
+
+  .store-link:hover img {
+    transform: scale(1.05);
   }
 </style>
