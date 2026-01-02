@@ -1,3 +1,7 @@
+<script>
+  import { Facebook, Instagram, Twitter } from 'lucide-svelte';
+</script>
+
 <section id="contact" class="light-bg">
   <div class="container">
     <div class="content">
@@ -6,9 +10,15 @@
         <p><a href="mailto:info@ridealert.co">info@ridealert.co</a></p>
       </div>
       <div class="socials">
-        <a href="https://www.facebook.com/RideAlertApp">Facebook</a>
-        <a href="https://www.twitter.com/ridealert_app">Twitter</a>
-        <a href="https://www.instagram.com/ridealertapp">Instagram</a>
+        <a href="https://www.facebook.com/RideAlertApp" title="Facebook">
+          <Facebook size={20} />
+        </a>
+        <a href="https://www.twitter.com/ridealert_app" title="Twitter">
+          <Twitter size={20} />
+        </a>
+        <a href="https://www.instagram.com/ridealertapp" title="Instagram">
+          <Instagram size={20} />
+        </a>
       </div>
     </div>
   </div>

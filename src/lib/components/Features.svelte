@@ -1,3 +1,7 @@
+<script>
+  import { Bell, Check, Lock, Map, MessageSquare, User } from 'lucide-svelte';
+</script>
+
 <section id="features" class="section light-bg">
   <div class="container">
     <div class="section-title">
@@ -8,37 +12,37 @@
     <div class="grid">
       <!-- Feature 1 -->
       <div class="card feature">
-        <div class="icon">User</div>
+        <div class="icon"><User size={24} /></div>
         <h4>Connect</h4>
         <p>Ride Alert is the app to connect you with the local cycling scene. Signup with your email address, connect your Strava account and start riding with other cyclists.</p>
       </div>
       <!-- Feature 2 -->
       <div class="card feature">
-        <div class="icon">Map</div>
+        <div class="icon"><Map size={24} /></div>
         <h4>Post Your Ride</h4>
         <p>Let other cyclists in your city know about your upcoming ride. Enter details like start date, time, location, and distance.</p>
       </div>
       <!-- Feature 3 -->
       <div class="card feature">
-        <div class="icon">Check</div>
+        <div class="icon"><Check size={24} /></div>
         <h4>Join Up</h4>
         <p>See a ride you like? Let everyone know by indicating if you are in, out or undecided.</p>
       </div>
       <!-- Feature 4 -->
       <div class="card feature">
-        <div class="icon">Chat</div>
+        <div class="icon"><MessageSquare size={24} /></div>
         <h4>Chat</h4>
         <p>Tired of using group text to set the ride details? Each ride provides real time chat.</p>
       </div>
       <!-- Feature 5 -->
       <div class="card feature">
-        <div class="icon">Bell</div>
+        <div class="icon"><Bell size={24} /></div>
         <h4>Alerts</h4>
         <p>Receive push notifications for public and private rides, join ups and new chat messages.</p>
       </div>
       <!-- Feature 6 -->
       <div class="card feature">
-        <div class="icon">Lock</div>
+        <div class="icon"><Lock size={24} /></div>
         <h4>Private Rides</h4>
         <p>Want to invite your buddies on a private ride? Create and send "invitation only" rides that are hidden from public view.</p>
       </div>
