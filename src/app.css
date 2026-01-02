@@ -1,6 +1,6 @@
 :root {
   --primary: #fc4c02;
-  --primary-gradient: linear-gradient(135deg, #fc4c02 0%, #ff9166 100%);
+  --primary-gradient: linear-gradient(135deg, #fc4c02 0%, #d15e1b 100%);
   --secondary: #913939;
   --text-muted: #959094;
   --light-bg: #faf6fb;
@@ -8,7 +8,7 @@
   --link-color: #E3AE8D;
   --link-hover: #D67060;
 
-  --font-family: 'Rubik', system-ui, sans-serif;
+  --font-family: 'Inter', Arial, sans-serif;
 
   --container-width: 1140px;
   --header-height: 80px;

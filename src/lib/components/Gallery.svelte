@@ -1,13 +1,13 @@
 <script>
-  import emblaCarouselSvelte from 'embla-carousel-svelte'
-  import Autoplay from 'embla-carousel-autoplay'
+  import Autoplay from 'embla-carousel-autoplay';
+  import emblaCarouselSvelte from 'embla-carousel-svelte';
 
   let options = { loop: true, align: 'center' }
   // Stop autoplay on interaction is default, but we can verify behavior
   let plugins = [Autoplay({ delay: 3000, stopOnInteraction: true })]
   
   let emblaApi
-  const TWEEN_FACTOR_BASE = 0.52
+  const TWEEN_FACTOR_BASE = 0.20
   let tweenFactor = 0
   let tweenNodes = []
 
