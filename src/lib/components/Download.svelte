@@ -1,11 +1,15 @@
+<script>
+  import { Smartphone } from 'lucide-svelte';
+</script>
+
 <section id="download" class="section bg-gradient">
   <div class="container">
     <div class="call-to-action">
       <div class="box-icon">
-        <span class="icon-mobile">📱</span>
+        <Smartphone size={32} color="var(--primary)" />
       </div>
       <h2>Download</h2>
-      <p class="tagline">Available for iOS, MacOS and Android platforms.</p>
+      <p class="tagline">Available for iOS, macOS and Android platforms.</p>
       <div class="buttons">
         <a href="https://play.google.com/store/apps/details?id=com.bitscheme.ridealert" class="store-link">
           <img src="/images/GetItOnGooglePlay_Badge_Web_color_English.png" alt="Get it on Google Play">

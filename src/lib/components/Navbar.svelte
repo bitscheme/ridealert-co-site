@@ -1,4 +1,5 @@
 <script>
+  import { Menu, X } from 'lucide-svelte';
   let isMenuOpen = false;
 
   function toggleMenu() {
@@ -12,7 +13,11 @@
       <img src="/images/logo-transparent.png" alt="Ride Alert" width="75" height="75">
     </a>
     <button class="toggle" on:click={toggleMenu} aria-label="Toggle navigation">
-      ☰
+      {#if isMenuOpen}
+        <X size={28} />
+      {:else}
+        <Menu size={28} />
+      {/if}
     </button>
     <div class="menu {isMenuOpen ? 'open' : ''}">
       <a href="#home" on:click={() => isMenuOpen = false}>HOME</a>
